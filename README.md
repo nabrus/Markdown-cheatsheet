@@ -1,3 +1,6 @@
+<!-- Headings -->
+## Headings
+---
 ```md
 # heading 1
 ## heading 2
@@ -11,13 +14,16 @@
 ### heading 4
 #### heading 5
 
+<br/>
+<br/>
+
+## Emphasis
 ---
-### Emphasis
+<!-- Italics -->
 ```md
 *this text is italics*
 _italic_
 ```
-<!-- Italics -->
 *this text is italics*
 
 _italic_
@@ -28,18 +34,18 @@ _italic_
 ```
 **bold** 
 
----
-
-<!-- Strike Through-->
+<!-- Strikethrough-->
 ```md
 ~~strikethrough~~
 ```
 ~~strikethrough~~
 
----
+<br/>
+<br/>
 
 <!-- Horizontal Line -->
-### Horizontal Rule
+## Horizontal Rule
+---
 ```md
 ---
 ___
@@ -50,8 +56,12 @@ ___
 ___
 ***
 
+<br/>
+<br/>
+
 <!-- Blockquote -->
-### Blockquote and Nested Blockquote
+## Blockquote and Nested Blockquote
+---
 ```md
 > This is a blockquote
 ```
@@ -65,22 +75,27 @@ ___
 > First line of text
 >> Nested line of text
 
----
+<br/>
+<br/>
 
 <!--  links -->
-```md
-[This is a link](example.com)
-```
-[This is a link](example.com)
-
-```md
-[This is a link with tooltip](example.com "tooltip")
-```
-[This is a link with tooltip](example.com "tooltip")
-
+## Links
 ---
+```md
+[This is a link](example.com)
+```
+[This is a link](example.com)
 
-### Lists
+```md
+[This is a link with tooltip](example.com "tooltip")
+```
+[This is a link with tooltip](example.com "tooltip")
+
+<br/>
+<br/>
+
+## Lists
+---
 <!-- Unordered List -->
 ```md
 * item1
@@ -107,18 +122,22 @@ ___
 * [ ] do not
 * [ ] try
 
----
+<br/>
+<br/>
 
 <!-- inline code block-->
-### Inline Code
+## Inline Code
+---
 ```md
 `<p></p>`
 ```
 `<p></p>`
 
----
+<br/>
+<br/>
 
-### Code blocks
+## Code blocks
+---
 <!-- Zsh block -->
 ````md
 ```zsh
@@ -153,9 +172,12 @@ print("Hello world")
 print("Hello world")
 ```
 
----
+<br/>
+<br/>
 
 <!--Images-->
+## Images
+---
 ```md
 ![Halloween Sun](halloween_sun_2014.jpeg)
 ```
