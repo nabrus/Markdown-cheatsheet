@@ -71,6 +71,7 @@ ___
 
 ---
 
+### Lists
 <!-- Unordered List -->
 ```md
 * item1
@@ -79,8 +80,6 @@ ___
 * item1
     * item2
 
----
-
 <!--Ordered List-->
 ```md
 1. first item
@@ -88,36 +87,6 @@ ___
 ```
 1. first item
 2. second item
-
----
-
-<!-- inline code block-->
-```md
-`<p></p>`
-```
-`<p></p>`
-
----
-
-### Code blocks
-<!-- Zsh block -->
-```zsh
-    npm install
-```
-
-<!-- JS Block-->
-```javascript
-function add(num1, num2){
-
-}
-```
-
-<!-- Python block-->
-```python
-print("Hello world")
-```
-
----
 
 <!-- task list -->
 ```md
@@ -128,6 +97,52 @@ print("Hello world")
 * [x] do
 * [ ] do not
 * [ ] try
+
+---
+
+<!-- inline code block-->
+### Inline Code
+```md
+`<p></p>`
+```
+`<p></p>`
+
+---
+
+### Code blocks
+<!-- Zsh block -->
+````md
+```zsh
+npm install
+```
+````
+```zsh
+npm install
+```
+
+<!-- JS Block-->
+````md
+```javascript
+function add(num1, num2){
+
+}
+```
+````
+```javascript
+function add(num1, num2){
+
+}
+```
+
+<!-- Python block-->
+````md
+```python
+print("Hello world")
+```
+````
+```python
+print("Hello world")
+```
 
 ---
 
