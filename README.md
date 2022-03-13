@@ -22,8 +22,6 @@ _italic_
 
 _italic_
 
----
-
 <!-- Bold -->
 ```md
 **bold**
@@ -34,20 +32,23 @@ _italic_
 
 <!-- Strike Through-->
 ```md
-~~strike~~
+~~strikethrough~~
 ```
-~~strike~~
+~~strikethrough~~
 
 ---
 
 <!-- Horizontal Line -->
-### Horizontal Line
+### Horizontal Rule
 ```md
 ---
 ___
+
+***
 ```
 --- 
 ___
+***
 
 <!-- Block quote -->
 ```md
@@ -91,11 +92,14 @@ ___
 ---
 
 <!-- inline code block-->
+```md
+`<p></p>`
+```
 `<p></p>`
 
-<!--Images-->
-![Halloween Sun](halloween_sun_2014.jpeg)
+---
 
+### Code blocks
 <!-- Zsh block -->
 ```zsh
     npm install
@@ -110,9 +114,25 @@ function add(num1, num2){
 
 <!-- Python block-->
 ```python
-print("Hi there")
+print("Hello world")
 ```
 
+---
+
 <!-- task list -->
-* [x] done
-* [ ] not done
+```md
+* [x] do
+* [ ] do not
+* [ ] try
+```
+* [x] do
+* [ ] do not
+* [ ] try
+
+---
+
+<!--Images-->
+```md
+![Halloween Sun](halloween_sun_2014.jpeg)
+```
+![Halloween Sun](halloween_sun_2014.jpeg)
