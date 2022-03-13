@@ -34,7 +34,7 @@ _italic_
 ```
 **bold** 
 
-<!-- Strikethrough-->
+<!-- Strikethrough -->
 ```md
 ~~strikethrough~~
 ```
@@ -59,15 +59,15 @@ ___
 <br/>
 <br/>
 
-<!-- Blockquote -->
 ## Blockquote and Nested Blockquote
 ---
+<!-- Blockquote -->
 ```md
 > This is a blockquote
 ```
 > This is a blockquote
 
-<!-- Nested blockquote  -->
+<!-- Nested blockquote -->
 ```md
 > First line of text
 >> Nested line of text
@@ -78,7 +78,7 @@ ___
 <br/>
 <br/>
 
-<!--  links -->
+<!-- Links -->
 ## Links
 ---
 ```md
@@ -96,6 +96,14 @@ ___
 
 ## Lists
 ---
+<!-- Ordered List -->
+```md
+1. first item
+2. second item
+```
+1. first item
+2. second item
+
 <!-- Unordered List -->
 ```md
 * item1
@@ -104,28 +112,20 @@ ___
 * item1
     * item2
 
-<!--Ordered List-->
-```md
-1. first item
-2. second item
-```
-1. first item
-2. second item
-
-<!-- task list -->
+<!-- Task list -->
 ```md
 * [x] do
 * [ ] do not
-* [ ] try
+* ~~[ ] try~~
 ```
 * [x] do
 * [ ] do not
-* [ ] try
+* ~~[ ] try~~
 
 <br/>
 <br/>
 
-<!-- inline code block-->
+<!-- inline code block -->
 ## Inline Code
 ---
 ```md
@@ -148,7 +148,7 @@ npm install
 npm install
 ```
 
-<!-- JS Block-->
+<!-- JS Block -->
 ````md
 ```javascript
 function add(num1, num2){
@@ -162,7 +162,7 @@ function add(num1, num2){
 }
 ```
 
-<!-- Python block-->
+<!-- Python block -->
 ````md
 ```python
 print("Hello world")
@@ -175,9 +175,9 @@ print("Hello world")
 <br/>
 <br/>
 
-<!--Images-->
-## Images
+<!-- Images -->
 ---
+## Images
 ```md
 ![Halloween Sun](halloween_sun_2014.jpeg)
 ```
