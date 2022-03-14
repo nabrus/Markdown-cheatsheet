@@ -91,17 +91,17 @@ ___
 
 <!-- Link  -->
 ```md
-[This is a link](example.com)
+[This is a link](http://www.example.com)
 ```
-[This is a link](example.com)
+[This is a link](http://www.example.com)
 
 <br/>
 
 <!-- Link with a tooltip -->
 ```md
-[Link with a tooltip, hover over me](example.com "tooltip")
+[Link with a tooltip, hover over me](http://www.example.com "tooltip")
 ```
-[Link with a tooltip, hover over me](example.com "tooltip")
+[Link with a tooltip, hover over me](http://www.example.com "tooltip")
 
 <br/>
 
