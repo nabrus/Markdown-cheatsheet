@@ -94,9 +94,9 @@ ___
 <br/>
 
 ```md
-[This is a link with tooltip](example.com "tooltip")
+[Link with a tooltip, hover over me](example.com "tooltip")
 ```
-[This is a link with tooltip](example.com "tooltip")
+[Link with a tooltip, hover over me](example.com "tooltip")
 
 <br/>
 <br/>
@@ -118,8 +118,8 @@ ___
 * item1
     * item2
 ```
-* item1
-    * item2
+* item 1
+    * item 2
 
 <br/>
 
@@ -127,7 +127,7 @@ ___
 ```md
 * [x] do
 * [ ] do not
-* ~~[ ] try~~
+* [ ] ~~try~~
 ```
 * [x] do
 * [ ] do not
