@@ -6,12 +6,14 @@
 ### heading 3
 ### heading 4
 #### heading 5
+##### heading 6
 ```
 # heading 1  
 ## heading 2 
 ### heading 3
 ### heading 4
 #### heading 5
+##### heading 6
 
 <br/>
 <br/>
@@ -105,33 +107,33 @@ ___
 ## Lists
 <!-- Ordered List -->
 ```md
-1. first item
-2. second item
+1. First item
+2. Second item
 ```
-1. first item
-2. second item
+1. First item
+2. Second item
 
 <br/>
 
 <!-- Unordered List -->
 ```md
-* item 1
-    * item 2
+* Item one
+    * Item two
 ```
-* item 1
-    * item 2
+* Item one
+    * Item two
 
 <br/>
 
 <!-- Task list -->
 ```md
-* [x] do
-* [ ] do not
-* [ ] ~~try~~
+* [x] Do
+* [ ] Do not
+* [ ] ~~Try~~
 ```
-* [x] do
-* [ ] do not
-* [ ] ~~try~~
+* [x] Do
+* [ ] Do not
+* [ ] ~~Try~~
 
 <br/>
 <br/>
