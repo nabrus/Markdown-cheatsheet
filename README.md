@@ -1,6 +1,5 @@
 <!-- Headings -->
 ## Headings
----
 ```md
 # heading 1
 ## heading 2
@@ -17,8 +16,8 @@
 <br/>
 <br/>
 
-## Emphasis
 ---
+## Emphasis
 <!-- Italics -->
 ```md
 *this text is italics*
@@ -44,8 +43,8 @@ _italic_
 <br/>
 
 <!-- Horizontal Line -->
-## Horizontal Rule
 ---
+## Horizontal Rule
 ```md
 ---
 ___
@@ -59,8 +58,8 @@ ___
 <br/>
 <br/>
 
-## Blockquote and Nested Blockquote
 ---
+## Blockquote and Nested Blockquote
 <!-- Blockquote -->
 ```md
 > This is a blockquote
@@ -79,23 +78,23 @@ ___
 <br/>
 
 <!-- Links -->
+---
 ## Links
+```md
+[This is a link](example.com)
+```
+[This is a link](example.com)
+
+```md
+[This is a link with tooltip](example.com "tooltip")
+```
+[This is a link with tooltip](example.com "tooltip")
+
+<br/>
+<br/>
+
 ---
-```md
-[This is a link](example.com)
-```
-[This is a link](example.com)
-
-```md
-[This is a link with tooltip](example.com "tooltip")
-```
-[This is a link with tooltip](example.com "tooltip")
-
-<br/>
-<br/>
-
 ## Lists
----
 <!-- Ordered List -->
 ```md
 1. first item
@@ -126,8 +125,8 @@ ___
 <br/>
 
 <!-- inline code block -->
-## Inline Code
 ---
+## Inline Code
 ```md
 `<p></p>`
 ```
@@ -136,8 +135,8 @@ ___
 <br/>
 <br/>
 
-## Code blocks
 ---
+## Code blocks
 <!-- Zsh block -->
 ````md
 ```zsh
