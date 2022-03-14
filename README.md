@@ -1,19 +1,19 @@
 <!-- Headings -->
 ## Headings
 ```md
-# heading 1
-## heading 2
-### heading 3
-#### heading 4
-##### heading 5
-###### heading 6
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 ```
-# heading 1  
-## heading 2 
-### heading 3
-#### heading 4
-##### heading 5
-###### heading 6
+# Heading 1  
+## Heading 2 
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 <br/>
 <br/>
@@ -68,19 +68,19 @@ ___
 ## Blockquote and Nested Blockquote
 <!-- Blockquote -->
 ```md
-> This is a blockquote
+> This is a blockquote.
 ```
-> This is a blockquote
+> This is a blockquote.
 
 <br/>
 
 <!-- Nested blockquote -->
 ```md
-> First line of text in a blockquote
->> Nested line of text in a blockquote
+> First line of text in a blockquote.
+>> Nested line of text in a blockquote.
 ```
-> First line of text in a blockquote
->> Nested line of text in a blockquote
+> First line of text in a blockquote.
+>> Nested line of text in a blockquote.
 
 <br/>
 <br/>
