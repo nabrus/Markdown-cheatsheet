@@ -88,6 +88,8 @@ ___
 <!-- Links -->
 ---
 ## Links
+
+<!-- Link  -->
 ```md
 [This is a link](example.com)
 ```
@@ -95,10 +97,29 @@ ___
 
 <br/>
 
+<!-- Link with a tooltip -->
 ```md
 [Link with a tooltip, hover over me](example.com "tooltip")
 ```
 [Link with a tooltip, hover over me](example.com "tooltip")
+
+<br/>
+
+<!-- Reference links -->
+```md
+This is a [reference style link][1]. Which is a reference to a link defined elsewhere in the document, usually at the bottom. This is another for the [second link][2]. Any link can be reused and the [link text][1] can be changed. Also a reference link doesn't need an explicit name, [like this] example.
+
+[1]: http://www.example1.com
+[2]: http://www.example2.com
+[like this]: http://www.example3.com
+```
+
+This is a [reference style link][1]. Which is a reference to a link  defined elsewhere in the document, usually at the bottom. This is another for the [second link][2]. Any link can be reused and the [link text][1] can be changed. Also a reference link doesn't need an explicit name,  [like this] example.
+
+[1]: http://www.example1.com
+[2]: http://www.example2.com
+[like this]: http://www.example3.com
+
 
 <br/>
 <br/>
