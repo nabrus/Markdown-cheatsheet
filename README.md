@@ -22,28 +22,28 @@
 ## Emphasis
 <!-- Italics -->
 ```md
-*this text is italics*
-_italic_
+*Italicized text*
+_Also italicized text_
 ```
-*this text is italics*
+*Italicized text*
 
-_italic_
+_Also italicized text_
 
 <br/>
 
 <!-- Bold -->
 ```md
-**bold**
+**Bold**
 ```
-**bold** 
+**Bold** 
 
 <br/>
 
 <!-- Strikethrough -->
 ```md
-~~strikethrough~~
+~~Strikethrough~~
 ```
-~~strikethrough~~
+~~Strikethrough~~
 
 <br/>
 <br/>
@@ -76,11 +76,11 @@ ___
 
 <!-- Nested blockquote -->
 ```md
-> First line of text
->> Nested line of text
+> First line of text in a blockquote
+>> Nested line of text in a blockquote
 ```
-> First line of text
->> Nested line of text
+> First line of text in a blockquote
+>> Nested line of text in a blockquote
 
 <br/>
 <br/>
