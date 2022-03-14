@@ -27,11 +27,15 @@ _italic_
 
 _italic_
 
+<br/>
+
 <!-- Bold -->
 ```md
 **bold**
 ```
 **bold** 
+
+<br/>
 
 <!-- Strikethrough -->
 ```md
@@ -66,6 +70,8 @@ ___
 ```
 > This is a blockquote
 
+<br/>
+
 <!-- Nested blockquote -->
 ```md
 > First line of text
@@ -85,6 +91,8 @@ ___
 ```
 [This is a link](example.com)
 
+<br/>
+
 ```md
 [This is a link with tooltip](example.com "tooltip")
 ```
@@ -103,6 +111,8 @@ ___
 1. first item
 2. second item
 
+<br/>
+
 <!-- Unordered List -->
 ```md
 * item1
@@ -110,6 +120,8 @@ ___
 ```
 * item1
     * item2
+
+<br/>
 
 <!-- Task list -->
 ```md
@@ -119,7 +131,7 @@ ___
 ```
 * [x] do
 * [ ] do not
-* ~~[ ] try~~
+* [ ] ~~try~~
 
 <br/>
 <br/>
@@ -147,6 +159,8 @@ npm install
 npm install
 ```
 
+<br/>
+
 <!-- JS Block -->
 ````md
 ```javascript
@@ -160,6 +174,8 @@ function add(num1, num2){
   return num1 + num2
 }
 ```
+
+<br/>
 
 <!-- Python block -->
 ````md
